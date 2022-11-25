@@ -1,0 +1,89 @@
+@import "src/assets/style/variables";
+@import "src/assets/style/mixin";
+
+.L-header-component {
+  width: 100%;
+  background-color: $black;
+  color: $white;
+  padding: 23.3px 0;
+
+  .L-header-wrapper {
+    @include screen-max-width-1200 {
+      flex-wrap: wrap;
+    }
+
+    .L-header-child {
+      @include screen-max-width-1200 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+      }
+
+      .L-header-list {
+        @include screen-max-width-1200 {
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+
+        }
+
+        .L-header-link {
+          margin: 0 20px;
+          font-size: 18px;
+          @include screen-max-width-1200 {
+            text-align: center;
+            width: 100%;
+            margin: 10px;
+          }
+        }
+      }
+
+      .L-header-image {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      &:first-child {
+        .L-header-image {
+          width: 124px;
+          height: 34px;
+
+        }
+      }
+
+      &:last-child {
+        .L-header-image {
+
+          width: 32px;
+          height: 28px;
+          position: relative;
+
+          .L-circle-count {
+            font-size: 12px;
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            right: -5px;
+            bottom: -8px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $yellow;
+            color: $black;
+            font-weight: 400;
+
+          }
+
+
+        }
+      }
+
+
+    }
+
+
+  }
+}

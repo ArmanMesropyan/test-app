@@ -1,0 +1,32 @@
+
+.G-flex {
+  display : flex;
+}
+.G-center {
+  justify-content : center;
+  align-items     : center;
+}
+
+.G-justify-center {
+  justify-content : center;
+}
+
+.G-justify-between {
+  justify-content : space-between;
+}
+.G-justify-evenly {
+  justify-content : space-evenly;
+}
+
+.G-justify-around {
+  justify-content : space-around;
+}
+
+.G-justify-end {
+  justify-content : flex-end;
+}
+
+.G-align-center {
+  align-items : center;
+}
+

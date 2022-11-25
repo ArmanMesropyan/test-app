@@ -1,0 +1,131 @@
+@import "src/assets/style/variables";
+@import "src/assets/style/mixin";
+
+.L-footer {
+  background-color: $black;
+  width: 100%;
+  color: $white;
+  padding-top: 110px;
+  .L-footer-wrapper {
+    .L-footer-title-block {
+      text-align: center;
+
+      .L-footer-title {
+        font-weight: 700;
+        font-size: 48px;
+        letter-spacing: 2.5px;
+        &:last-child {
+          color: $yellow;
+        }
+        @include screen-max-width-767{
+          font-size: 38px;
+        }
+        @include screen-max-width-576{
+          font-size: 28px;
+        }
+      }
+
+    }
+
+    .L-footer-price-block {
+      margin-top: 85px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15px;
+      .L-footer-price {
+        &:first-child {
+          font-size: 36px;
+          color: $grey;
+          text-decoration: line-through;
+          margin-right: 32px;
+          @include screen-max-width-576{
+            font-size: 26px;
+          }
+        }
+
+        &:last-child {
+          font-size: 48px;
+          @include screen-max-width-576{
+            font-size: 38px;
+          }
+        }
+      }
+    }
+
+    .L-footer-content {
+      margin-top: 58px;
+      justify-content: space-evenly;
+      @include screen-max-width-1024{
+        flex-wrap: wrap;
+      }
+      .L-footer-cube {
+        margin-top: -20px;
+        margin-left: 25px;
+        @include screen-max-width-1024{
+          margin-top: 20px;
+        }
+        .L-footer-image {
+          width: 193px;
+          height: 168px;
+        margin: 0 auto;
+        }
+
+        .L-footer-cube-desc {
+          margin-top: 78px;
+          font-size: 18px;
+          text-align: center;
+          @include screen-max-width-1024{
+            margin-top: 35px;
+          }
+          .L-footer-cube-desc-yellow {
+            color: $yellow;
+            display: block;
+
+          }
+        }
+      }
+
+      .L-footer-cube-big {
+        margin-top: -20px;
+        @include screen-max-width-1024{
+          margin-top: 0;
+        }
+        .L-footer-image {
+          width: 480px;
+          height: 160px;
+        }
+
+        .L-footer-cube-desc {
+          font-size: 36px;
+          text-align: center;
+          margin-top: 45px;
+            @include screen-max-width-1024{
+              margin-top: 25px;
+            }
+          .L-footer-cube-desc-yellow {
+            color: $yellow;
+            display: block;
+            margin-top: 8px;
+            font-size: 24px;
+          }
+        }
+      }
+
+
+    }
+    .L-buy-btn{
+      margin-top: 62px;
+      padding-bottom: 112px;
+      display: flex;
+      justify-content: center;
+      .L-buy-button{
+        width: 256px;
+        height: 56px;
+        background-color: $yellow;
+        color: $black;
+        border-radius: 7px;
+      }
+    }
+  }
+}

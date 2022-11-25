@@ -1,0 +1,166 @@
+@import "src/assets/style/variables";
+@import "src/assets/style/mixin";
+
+.L-content {
+  width: 100%;
+  min-height: 792px;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+  .L-content-wrapper {
+    .L-content-child {
+      .L-content-title {
+        padding-top: 104px;
+        padding-bottom: 24px;
+        margin-left: 21px;
+        font-size: 155px;
+        line-height: 152px;
+        color: $white;
+        letter-spacing: 1.5px;
+        @include screen-max-width-1400 {
+          font-size: 135px;
+        }
+        @include screen-max-width-1200 {
+          font-size: 100px;
+        }
+        @include screen-max-width-1024 {
+          font-size: 80px;
+          line-height: 100px;
+        }
+        @include screen-max-width-767{
+          font-size: 40px;
+          line-height: 60px;
+        }
+      }
+
+      .L-content-paragraph {
+        font-size: 24px;
+        max-width: 640px;
+        margin-bottom: 110px;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 33px;
+        @include screen-max-width-767{
+          margin-bottom: 20px;
+        }
+      }
+
+      .L-content-about {
+        font-weight: 700;
+        font-size: 36px;
+        margin-left: 33px;
+        letter-spacing: 1.5px;
+        @include screen-max-width-767{
+          font-size: 26px;
+        }
+      }
+
+      .L-content-about-paragraph {
+        font-size: 18px;
+        max-width: 350px;
+        padding-top: 8px;
+        margin-left: 33px;
+      }
+    }
+
+    .L-content-images {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+
+    }
+
+    .L-lemon {
+      width: 533px;
+      height: 462px;
+      left: 664px;
+      top: 444px;
+      z-index: 3;
+      @include screen-max-width-1400 {
+        left: 600px;
+      }
+      @include screen-max-width-1300 {
+        left: 500px;
+      }
+      @include screen-max-width-1200 {
+        width: 380px;
+        height: 300px;
+        top: 581px;
+      }
+      @include screen-max-width-1024 {
+        width: 180px;
+        height: 150px;
+      }
+      @include screen-max-width-767{
+        left: 20px;
+        top: 650px;
+      }
+
+    }
+
+    .L-nootris {
+      width: 224px;
+      height: 635px;
+      left: 1056px;
+      top: 64px;
+      z-index: 2;
+      @include screen-max-width-1400 {
+        left: 960px;
+      }
+      @include screen-max-width-1300 {
+        left: 860px;
+      }
+      @include screen-max-width-1200 {
+        left: 720px;
+        width: 160px;
+        height: 490px;
+        top: 305px;
+      }
+      @include screen-max-width-1024 {
+        width: 80px;
+        height: 250px;
+        left: 600px;
+        top: 425px;
+      }
+      @include screen-max-width-767{
+        left: 100px;
+        top: 530px;
+      }
+    }
+
+    .L-ginger {
+      width: 496px;
+      height: 408px;
+      left: 880px;
+      top: 273px;
+      z-index: 1;
+      @include screen-max-width-1400 {
+        left: 800px;
+      }
+      @include screen-max-width-1300 {
+        left: 700px;
+      }
+      @include screen-max-width-1200 {
+        width: 300px;
+        height: 260px;
+        left: 650px;
+        top: 382px;
+      }
+      @include screen-max-width-1024 {
+        width: 150px;
+        height: 100px;
+        left: 620px;
+        top: 540px;
+      }
+      @include screen-max-width-767{
+        left: 120px;
+        top: 650px;
+      }
+
+    }
+  }
+}
