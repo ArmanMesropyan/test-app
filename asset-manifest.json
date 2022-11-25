@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test-app/static/css/main.22f44bb8.css",
+    "main.js": "/test-app/static/js/main.7d5ca63b.js",
+    "static/media/ginger.png": "/test-app/static/media/ginger.50f3c4e31f375f27e349.png",
+    "static/media/Lemon.png": "/test-app/static/media/Lemon.874120e220a01755155f.png",
+    "static/media/bg.png": "/test-app/static/media/bg.406322e99786b78dc0b6.png",
+    "static/media/Rubik-Regular.ttf": "/test-app/static/media/Rubik-Regular.974ab100afa4538622da.ttf",
+    "static/media/nootris.png": "/test-app/static/media/nootris.2dc14df5fe637642e78b.png",
+    "static/media/nootris2.png": "/test-app/static/media/nootris2.c46644a0b82a40220cc5.png",
+    "static/media/ginger2.png": "/test-app/static/media/ginger2.ea9e4ed923702820f22e.png",
+    "static/media/vorus.png": "/test-app/static/media/vorus.2bb6e3a4510e5f2e84d6.png",
+    "index.html": "/test-app/index.html",
+    "main.22f44bb8.css.map": "/test-app/static/css/main.22f44bb8.css.map",
+    "main.7d5ca63b.js.map": "/test-app/static/js/main.7d5ca63b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22f44bb8.css",
+    "static/js/main.7d5ca63b.js"
+  ]
+}
